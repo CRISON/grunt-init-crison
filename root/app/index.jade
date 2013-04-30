@@ -1,0 +1,15 @@
+doctype html
+
+html
+  head
+    meta(charset="utf-8")
+    title SHIFT
+    link(rel="stylesheet", href="/css/vendor.css?@@timestamp")
+    link(rel="stylesheet", href="/css/app.css?@@timestamp")
+    script(src="/scripts/vendor.js?@@timestamp")
+
+  body
+    .wrapper
+      h1 Welcome to {%= name %}
+
+    script(src="javascripts/app.js?@@timestamp")
