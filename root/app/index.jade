@@ -3,7 +3,7 @@ doctype html
 html
   head
     meta(charset="utf-8")
-    title SHIFT
+    title {%= name %}
     link(rel="stylesheet", href="/css/vendor.css?@@timestamp")
     link(rel="stylesheet", href="/css/app.css?@@timestamp")
     script(src="/scripts/vendor.js?@@timestamp")
@@ -12,4 +12,4 @@ html
     .wrapper
       h1 Welcome to {%= name %}
 
-    script(src="javascripts/app.js?@@timestamp")
+    script(src="/scripts/app.js?@@timestamp")
