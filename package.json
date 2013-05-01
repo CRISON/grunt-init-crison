@@ -1,0 +1,23 @@
+{
+  "name": "grunt-init-crison",
+  "version": "0.0.1",
+  "description": "Grunt initializer template using Jade, Stylus & CoffeeScript",
+  "main": "template.js",
+  "scripts": {
+  "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/CRISON/grunt-init-crison.git"
+  },
+  "keywords": [
+  "grunt",
+  "init",
+  "jade",
+  "stylus",
+  "coffee-script"
+  ],
+  "author": "Chris Lorenz",
+  "license": "MIT",
+  "gitHead": "5837233b7e86632adcbd509117d49c450e5421bd"
+}
